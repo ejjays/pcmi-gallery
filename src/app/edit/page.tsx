@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -87,7 +87,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              transformation="blur_100"
+              transformations={["blur_100"]}
               alt="some image"
             />
           )}
@@ -97,7 +97,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              transformation="e_grayscale"
+              transformations={["e_grayscale"]}
               alt="some image"
             />
           )}
@@ -107,7 +107,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              transformation="e_pixelate"
+              transformations={["e_pixelate"]}
               alt="some image"
             />
           )}
@@ -117,7 +117,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="700"
-              transformation="e_remove_bg"
+              transformations={["e_remove_bg"]}
               alt="some image"
             />
           )}
