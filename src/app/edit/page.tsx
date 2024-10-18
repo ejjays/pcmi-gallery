@@ -87,7 +87,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              blur="800"
+              transformation="blur_100"
               alt="some image"
             />
           )}
@@ -97,7 +97,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              grayscale
+              transformation="e_grayscale"
               alt="some image"
             />
           )}
@@ -107,7 +107,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              pixelate
+              transformation="e_pixelate"
               alt="some image"
             />
           )}
@@ -117,7 +117,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="700"
-              removeBackground
+              transformation="e_remove_bg"
               alt="some image"
             />
           )}
